@@ -1,11 +1,8 @@
-import { Button } from "./components/ui/button"
+import { Outlet } from "react-router-dom"
+
 
 const App = () => {
-  return (
-    <div className="p-6">
-      <Button>Welcome</Button>
-    </div>
-  )
+  return <Outlet/>
 }
 
 export default App
