@@ -1,5 +1,5 @@
 import { ModeToggle } from '@/components/mode-toggle'
-import React from 'react'
+ 
 import HeaderAvatar from './HeaderAvatar'
 
 const HeaderRight = () => {

@@ -15,19 +15,19 @@ import { useState } from "react"
 import darkLogo from '@/assets/logo/logo-dark.png'
 // import { resetPassword } from "@/services/authService" // Import your resetPassword service
 // import { toast } from 'sonner' // Import the toast function for notifications
-import { useParams } from "react-router-dom"
+// import { useParams } from "react-router-dom"
 
 interface IFormInput {
     password: string
     confirmPassword: string
 }
 
-interface IParams extends Record<string, string | undefined> {
-    token: string; // token should be a string
-}
+// interface IParams extends Record<string, string | undefined> {
+//     token: string; // token should be a string
+// }
 
 export default function Resetpassword() {
-    const { token } = useParams<IParams>()
+    // const { token } = useParams<IParams>()
 
     const [isSubmitting, setIsSubmitting] = useState(false)
 
